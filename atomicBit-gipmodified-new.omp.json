@@ -103,5 +103,6 @@
       "type": "prompt"
     }
   ],
-  "version": 2
+  "version": 2,
+  "auto_upgrade": true
 }
