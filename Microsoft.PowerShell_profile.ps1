@@ -27,4 +27,8 @@ function NpmDev {
 
 Set-Alias nrd NpmDev
 
+function wafTIK {
+    ssh gip@192.168.255.117
+}
 
+Set-Alias -Name tikwaf -Value wafTIK
