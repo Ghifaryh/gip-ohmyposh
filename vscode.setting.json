@@ -270,7 +270,6 @@
    "workbench.sideBar.location": "right",
    "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
    "terminal.integrated.suggest.enabled": true,
-   "terminal.integrated.tabs.enabled": false,
    "terminal.integrated.suggest.quickSuggestions": false,
    "workbench.editor.editorActionsLocation": "titleBar",
    // "editor.quickSuggestions": {
@@ -288,8 +287,6 @@
    // "editor.copyWithSyntaxHighlighting": false, // for copy with the same format,
    "editor.copyWithSyntaxHighlighting": true,
    "diffEditor.ignoreTrimWhitespace": false,
-   // "editor.emptySelectionClipboard": false, // copy in clipboard without select
-   "workbench.editor.enablePreview": false,
    "window.newWindowDimensions": "inherit",
    "editor.multiCursorModifier": "ctrlCmd",
    "files.trimTrailingWhitespace": true,
@@ -330,7 +327,7 @@
    "editor.gotoLocation.multipleImplementations": "goto",
    "editor.gotoLocation.multipleTypeDefinitions": "goto",
    // Typography
-   "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+   "editor.fontFamily": "Fira Code",
    // "editor.fontFamily": "Fira Code",
    "editor.suggestFontSize": 14,
    "editor.suggestLineHeight": 30,
@@ -357,12 +354,14 @@
       "**/storage/laravel.logs": false, // Keep "laravel.logs" visible
       // Other existing rules
       "**/vendor/{[^l],?[^ai]}*": true, // Hide everything in /vendor, except "laravel" and "livewire"
+      "**/vendor/laravel": true, // Hide Laravel stuff
       "**/node_modules": true, // Hide node_modules
       "**/dist": true, // Hide dist folder
       "**/_ide_helper.php": true, // Hide _ide_helper.php
       "**/composer.lock": true, // Hide composer.lock
       "**/package-lock.json": true, // Hide package-lock.json
-      ".phpunit.result.cache": true // Hide PHPUnit cache file
+      ".phpunit.result.cache": true, // Hide PHPUnit cache file
+      ".next": true
    },
    /**
 	 * Code
@@ -372,7 +371,7 @@
    "emmet.includeLanguages": {
       "blade": "html",
       "vue-html": "html",
-      "vue": "html",
+      // "vue": "html",
       "react": "html",
       "javascript": "html",
       "postcss": "css",
@@ -449,7 +448,7 @@
    // "editor.formatOnSave": false,
    "editor.formatOnSave": true,
    // "editor.fontLigatures": false,
-   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+   "editor.fontLigatures": true,
    // "editor.fontLigatures": true,
    "diffEditor.wordWrap": "on",
    "notebook.output.wordWrap": true,
@@ -522,11 +521,12 @@
    "resmon.show.cpuusage": false,
    "resmon.show.battery": false,
    "vscode_custom_css.statusbar": false,
-   "window.menuBarVisibility": "compact",
    "workbench.editor.showTabs": "none",
    "eslint.nodePath": "",
    "workbench.colorTheme": "Material Theme Deepforest",
    "breadcrumbs.symbolPath": "off",
+   "terminal.integrated.tabs.enabled": false,
+   "window.menuBarVisibility": "compact",
    // will change this in the future
    // "workbench.activityBar.location": "hidden",
    // "workbench.statusBar.visible": false,
