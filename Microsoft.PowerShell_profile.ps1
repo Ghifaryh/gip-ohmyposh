@@ -45,7 +45,15 @@ function open-laragon {
 
 Set-Alias -Name laragon -Value open-laragon
 
+function gip-gitlab {
+     git config --local user.email "mhghifary@itenas.ac.id"
+     git config --get user.email
+}
 
+Set-Alias -Name giplab -Value gip-gitlab
+
+# $email = git config --get user.email
+# Write-Output $email
 
 # oh-my-posh init pwsh --config 'C:\Users\mhghi\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' | Invoke-Expression
 
