@@ -220,7 +220,7 @@
       "workbench.editor.splitInGroupLayout",
       "prettier.jsxSingleQuote"
    ],
-   "prettier.vueIndentScriptAndStyle": true,
+   // "prettier.vueIndentScriptAndStyle": true,
    "beautify.language": {
       "js": {
          "type": [
@@ -252,7 +252,7 @@
    "blade.format.enable": true,
    "editor.defaultFormatter": "esbenp.prettier-vscode",
    "editor.indentSize": "tabSize",
-   "editor.tabSize": 3,
+   // "editor.tabSize": 3,
    "prettier.withNodeModules": false,
    "prettier.useTabs": true,
    "prisma.showPrismaDataPlatformNotification": false,
@@ -263,11 +263,21 @@
       "192.168.255.135": "linux",
       "uat-rpl.itenas.ac.id": "linux",
       "datahub.itenas.ac.id": "linux",
-      "cdc.itenas": "linux"
+      "cdc.itenas": "linux",
+      "192.168.255.47": "linux",
+      "akunk.itenas.ac.id": "linux",
+      "api-sikad.itenas.ac.id": "linux",
+      "simskk-new.itenas.ac.id": "linux",
+      "192.168.255.136": "linux",
+      "uat-inspect.itenas.ac.id": "linux",
+      "192.168.255.109": "linux",
+      "uat-masterapi.itenas.ac.id": "linux",
+      "192.168.255.40": "linux",
+      "Presensi": "linux",
+      "tik.itenas.ac.id": "linux"
    },
    "gitlens.graph.minimap.enabled": false,
    "Devdb.colorTheme": "dark",
-   "workbench.sideBar.location": "right",
    "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
    "terminal.integrated.suggest.enabled": true,
    "terminal.integrated.suggest.quickSuggestions": false,
@@ -275,8 +285,7 @@
    // "editor.quickSuggestions": {
    // 	"strings": true
    // }
-   // catpucchin
-   "editor.semanticHighlighting.enabled": true,
+   "editor.semanticHighlighting.enabled": true, // yang bikin merah jadi putih, yang unused jadi abu //https://github.com/microsoft/vscode/issues/92308
    // prevent VSCode from modifying the terminal colors
    "terminal.integrated.minimumContrastRatio": 1,
    // applicable if you use Go, this is an opt-in flag!
@@ -288,17 +297,17 @@
    "editor.copyWithSyntaxHighlighting": true,
    "diffEditor.ignoreTrimWhitespace": false,
    "window.newWindowDimensions": "inherit",
-   "editor.multiCursorModifier": "ctrlCmd",
+   // "editor.multiCursorModifier": "ctrlCmd", // for ctrl or alt links
    "files.trimTrailingWhitespace": true,
    "diffEditor.renderSideBySide": false,
    "editor.snippetSuggestions": "top",
-   "editor.detectIndentation": false,
-   "window.nativeFullScreen": true,
+   "editor.detectIndentation": true,
    // "files.insertFinalNewline": true, // insert new line at the end of copy
    "files.insertFinalNewline": false,
    "files.trimFinalNewlines": true,
    "editor.minimap.enabled": false,
-   "editor.lineNumbers": "off",
+   // "editor.lineNumbers": "off",
+   "editor.lineNumbers": "on",
    "editor.guides.indentation": false,
    "breadcrumbs.enabled": true, //full path
    "scm.diffDecorations": "none",
@@ -306,17 +315,15 @@
    "editor.hover.enabled": true,
    "editor.matchBrackets": "never",
    "workbench.tips.enabled": false,
-   "editor.colorDecorators": false,
-   // "git.decorations.enabled": false,
+   "editor.colorDecorators": true,
    "git.decorations.enabled": true,
    "workbench.startupEditor": "none",
    "editor.lightbulb.enabled": "off",
    "editor.selectionHighlight": true,
-   // "editor.selectionHighlight": false,
    "editor.overviewRulerBorder": false,
    "editor.renderLineHighlight": "none",
-   "editor.occurrencesHighlight": "off",
-   // "editor.occurrencesHighlight": "multiFile",
+   // "editor.occurrencesHighlight": "off",
+   "editor.occurrencesHighlight": "multiFile",
    "problems.decorations.enabled": false,
    "editor.renderControlCharacters": false,
    "editor.hideCursorInOverviewRuler": true,
@@ -359,7 +366,7 @@
       "**/dist": true, // Hide dist folder
       "**/_ide_helper.php": true, // Hide _ide_helper.php
       "**/composer.lock": true, // Hide composer.lock
-      "**/package-lock.json": true, // Hide package-lock.json
+      // "**/package-lock.json": true, // Hide package-lock.json
       ".phpunit.result.cache": true, // Hide PHPUnit cache file
       ".next": true
    },
@@ -395,12 +402,12 @@
 	 * Prettier
 	 **/
    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.defaultFormatter": "vscode.typescript-language-features",
       "editor.formatOnSave": true,
       "editor.tabSize": 2
    },
    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.defaultFormatter": "vscode.typescript-language-features",
       "editor.formatOnSave": true,
       "editor.tabSize": 2
    },
@@ -409,7 +416,7 @@
       "editor.formatOnSave": true
    },
    "[vue]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.defaultFormatter": "Wscats.vue",
       "editor.formatOnSave": true,
       "editor.tabSize": 2
    },
@@ -422,7 +429,6 @@
    "prettier.useEditorConfig": false,
    "explorer.sortOrder": "type",
    "prettier.tabWidth": 4,
-   "vetur.format.options.tabSize": 4,
    "workbench.tree.indent": 15,
    "[html]": {
       "editor.defaultFormatter": "apility.beautify-blade",
@@ -445,8 +451,6 @@
    },
    "security.workspace.trust.untrustedFiles": "open",
    "editor.linkedEditing": true,
-   // "editor.formatOnSave": false,
-   "editor.formatOnSave": true,
    // "editor.fontLigatures": false,
    "editor.fontLigatures": true,
    // "editor.fontLigatures": true,
@@ -470,11 +474,7 @@
    "editor.inlineSuggest.suppressSuggestions": true,
    "editor.padding.top": 16,
    "editor.cursorBlinking": "solid",
-   //  "editor.cursorBlinking": "smooth",
-   "editor.stickyScroll.enabled": false,
-   //  "editor.stickyScroll.enabled": true,
-   //  "editor.lineHeight": 32,
-   "editor.lineHeight": 25,
+   "editor.lineHeight": 24,
    "editor.tokenColorCustomizations": {
       "textMateRules": [
          {
@@ -497,37 +497,48 @@
       ]
    },
    "material-icon-theme.saturation": 0,
-   "workbench.iconTheme": "eq-material-theme-icons-light",
    "material-icon-theme.files.color": "#42a5f5",
    "workbench.tree.enableStickyScroll": false,
    // "workbench.tree.enableStickyScroll": true,
-   // this not working
    "workbench.colorCustomizations": {
-      "gitDecoration.modifiedResourceForeground": "#000000",
-      // "gitDecoration.ignoredResourceForeground": "#A9A9A9"
-      // "gitDecoration.ignoredResourceForeground": "#6A6A6A"
-      "gitDecoration.ignoredResourceForeground": "#000000",
+      // "gitDecoration.modifiedResourceForeground": "#000000",
+      // "gitDecoration.ignoredResourceForeground": "#000000",
    },
    // "workbench.iconTheme": "material-icon-theme",
    // css vscode:
-   "vscode_custom_css.imports": [
-      "file:///D:Backups/Vscode/CSS/custom-vscode.css",
-      "file:///D:Backups/Vscode/CSS/vscode-script.js"
-   ],
+   // "vscode_custom_css.imports": [
+   //    "file:///D:Backups/Vscode/CSS/custom-vscode.css",
+   //    "file:///D:Backups/Vscode/CSS/vscode-script.js"
+   // ],
    "git.alwaysShowStagedChangesResourceGroup": true,
    "lifeline.clock.format": "h:mm A",
    "lifeline.swap": true,
    "workbench.activityBar.location": "top",
    "resmon.show.cpuusage": false,
    "resmon.show.battery": false,
-   "vscode_custom_css.statusbar": false,
-   "workbench.editor.showTabs": "none",
+   // "workbench.editor.showTabs": "none",
    "eslint.nodePath": "",
-   "workbench.colorTheme": "Material Theme Deepforest",
    "breadcrumbs.symbolPath": "off",
-   "terminal.integrated.tabs.enabled": false,
+   // "terminal.integrated.tabs.enabled": false,
+   "markdown-preview-enhanced.liveUpdate": true,
+   "workbench.panel.showLabels": false,
    "window.menuBarVisibility": "compact",
-   // will change this in the future
-   // "workbench.activityBar.location": "hidden",
-   // "workbench.statusBar.visible": false,
+   "editor.formatOnSave": true,
+   "workbench.sideBar.location": "right",
+   "terminal.integrated.tabs.enabled": false,
+   "php.problems.exclude": {
+      "/": [
+         "PHP7102"
+      ]
+   },
+   // Rada Ganggu Inlay Hints PHP
+   "php.inlayHints.insertOnDoubleClick": false, // ini menarik
+   "php.inlayHints.parameters.enabled": true,
+   "php.inlayHints.types.suppressVariableFromLiteral": true,
+   "php.inlayHints.types.return": true,
+   "php.inlayHints.parameters.byReference": true,
+   "php.inlayHints.types.lambdaParameter": true,
+   "workbench.colorTheme": "Min Dark",
+   "workbench.iconTheme": "material-icon-theme",
+   // End PHP ganggu
 }
