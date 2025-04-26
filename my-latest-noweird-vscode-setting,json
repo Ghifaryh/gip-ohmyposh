@@ -1,0 +1,547 @@
+{
+   "python.pythonPath": "C:\\Users\\mhghi\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+   "code-runner.runInTerminal": true,
+   "cmake.configureOnOpen": true,
+   // "workbench.editorAssociations": {
+   //   "*.ipynb": "jupyter.notebook.ipynb"
+   // },
+   "python.defaultInterpreterPath": "C:\\Users\\mhghi\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+   "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+         80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets"
+   },
+   "liveServer.settings.donotShowInfoMsg": true,
+   "explorer.confirmDragAndDrop": false,
+   "liveServer.settings.donotVerifyTags": true,
+   //   "editor.wordWrap": "on",
+   "terminal.integrated.defaultProfile.windows": "PowerShell",
+   // "[php]": {
+   //   "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+   // },
+   "bracketPairColorizer.depreciation-notice": false,
+   "javascript.updateImportsOnFileMove.enabled": "always",
+   "html-css-class-completion.includeGlobPattern": "**/*.{css,html,php}",
+   "html-css-class-completion.enableEmmetSupport": true,
+   "emmet.triggerExpansionOnTab": true,
+   "code-runner.executorMap": {
+      "javascript": "node",
+      "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+      "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "php": "php",
+      "python": "python -u",
+      "perl": "perl",
+      "perl6": "perl6",
+      "ruby": "ruby",
+      "go": "go run",
+      "lua": "lua",
+      "groovy": "groovy",
+      "powershell": "powershell -ExecutionPolicy ByPass -File",
+      "bat": "cmd /c",
+      "shellscript": "bash",
+      "fsharp": "fsi",
+      "csharp": "scriptcs",
+      // "csharp": "cd $dir && dotnet run $fileName",
+      "vbscript": "cscript //Nologo",
+      "typescript": "ts-node",
+      "coffeescript": "coffee",
+      "scala": "scala",
+      "swift": "swift",
+      "julia": "julia",
+      "crystal": "crystal",
+      "ocaml": "ocaml",
+      "r": "Rscript",
+      "applescript": "osascript",
+      "clojure": "lein exec",
+      "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+      "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+      "racket": "racket",
+      "scheme": "csi -script",
+      "ahk": "autohotkey",
+      "autoit": "autoit3",
+      "dart": "dart",
+      "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+      "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+      "haskell": "runhaskell",
+      "nim": "nim compile --verbosity:0 --hints:off --run",
+      "lisp": "sbcl --script",
+      "kit": "kitc --run",
+      "v": "v run",
+      "sass": "sass --style expanded",
+      "scss": "scss --style expanded",
+      "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+      "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+   },
+   "terminal.integrated.gpuAcceleration": "off",
+   "vsicons.dontShowNewVersionMessage": true,
+   "[cpp]": {
+      "editor.suggest.insertMode": "replace",
+      "editor.semanticHighlighting.enabled": true
+   },
+   "liveServer.settings.useWebExt": true,
+   "html.format.enable": false,
+   "phpfmt.cakephp": true,
+   "phpfmt.detect_indent": true,
+   "phpfmt.enable_auto_align": true,
+   "phpfmt.yoda": true,
+   // "terminal.integrated.enableMultiLinePasteWarning": false,
+   "terminal.integrated.fontFamily": "FiraCode NFM",
+   "editor.renderWhitespace": "none",
+   "tabnine.experimentalAutoImports": true,
+   "editor.suggest.snippetsPreventQuickSuggestions": false,
+   "editor.parameterHints.enabled": false,
+   "editor.acceptSuggestionOnCommitCharacter": false,
+   "explorer.copyRelativePathSeparator": "/",
+   "todohighlight.isEnable": true,
+   "javascript.validate.enable": true,
+   "settingsSync.ignoredSettings": [
+      "-window.zoomLevel"
+   ],
+   "[typescript]": {
+      "editor.tabSize": 2,
+      // "editor.defaultFormatter": "vscode.typescript-language-features"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[blade]": {
+      "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+   },
+   "codesnap.containerPadding": "0 em",
+   "codesnap.shutterAction": "copy",
+   "codesnap.showWindowControls": false,
+   "codesnap.backgroundColor": "#000000",
+   "codesnap.roundedCorners": false,
+   "intelephense.diagnostics.undefinedSymbols": false,
+   "intelephense.environment.includePaths": [
+      "vendor"
+   ],
+   "intelephense.telemetry.enabled": false,
+   "intelephense.completion.triggerParameterHints": true,
+   "intelephense.completion.insertUseDeclaration": true,
+   "intelephense.trace.server": "messages",
+   "intelephense.diagnostics.undefinedClassConstants": false,
+   "intelephense.diagnostics.undefinedFunctions": false,
+   "intelephense.diagnostics.undefinedConstants": false,
+   "intelephense.diagnostics.undefinedProperties": false,
+   "intelephense.diagnostics.undefinedMethods": false,
+   "codesnap.showLineNumbers": false,
+   "indentRainbow.colors": [
+      "rgba(255,255,64,0.3)",
+      "rgba(127,255,127,0.3)",
+      "rgba(255,127,255,0.3)",
+      "rgba(79,236,236,0.3)"
+   ],
+   "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+   "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+   "indentRainbow.ignoreErrorLanguages": [
+      "*"
+   ],
+   "editor.guides.bracketPairs": "active",
+   "[python]": {
+      "editor.formatOnType": true
+   },
+   // "editor.fontSize": 14,
+   "editor.letterSpacing": 0.5,
+   "editor.formatOnPaste": true,
+   "telemetry.telemetryLevel": "off",
+   "gitlens.telemetry.enabled": false,
+   // CS stuff
+   "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/*.meta": true,
+      "**/*.*.meta": true,
+      "**/*.unity": true,
+      "**/*.unityproj": true,
+      "**/*.mat": true,
+      "**/*.fbx": true,
+      "**/*.FBX": true,
+      "**/*.tga": true,
+      "**/*.cubemap": true,
+      "**/*.prefab": true,
+      "**/Library": true,
+      "**/ProjectSettings": true,
+      "**/Temp": true
+   },
+   "csharp.referencesCodeLens.enabled": false,
+   "chatgpt.method": "Browser Auto-login",
+   "chatgpt.authenticationType": "Google Authentication",
+   "tailwindCSS.validate": false,
+   "notebook.output.scrolling": true,
+   "workbench.productIconTheme": "el-vsc-v1-icons",
+   "glassit.alpha": 220,
+   // "window.titleBarStyle": "custom",
+   "jupyter.askForKernelRestart": false,
+   "codesnap.transparentBackground": true,
+   "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 0px 0px",
+   "emmet.showSuggestionsAsSnippets": true,
+   "emmet.showAbbreviationSuggestions": true,
+   "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "vue-html": "html",
+      "vue": "html"
+   },
+   "discord.removeRemoteRepository": true,
+   "git.enableSmartCommit": true,
+   "discord.suppressNotifications": true,
+   "git.autofetch": true,
+   "terminal.integrated.defaultProfile.linux": "zsh",
+   "prettier.semi": false,
+   "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+   // laravel
+   "intelephense.diagnostics.undefinedTypes": false,
+   // "intelephense.diagnostics.undefinedFunctions" : false,
+   // "intelephense.diagnostics.undefinedConstants" :false,
+   // "intelephense.diagnostics.undefinedClassConstants" : false ,
+   // "intelephense.diagnostics.undefinedMethods" : false ,
+   // "intelephense.diagnostics.undefinedProperties": false ,
+   "intelephense.diagnostics.undefinedVariables": false,
+   "[cpp][dart]": {
+      "editor.wordBasedSuggestions": "off"
+   },
+   "indentRainbow.indicatorStyle": "light",
+   "window.restoreWindows": "none",
+   "indentRainbow.excludedLanguages": [
+      "plaintext"
+   ],
+   "php.executables": {},
+   "workbench.editor.splitInGroupLayout": "vertical",
+   "workbench.settings.applyToAllProfiles": [
+      "workbench.editor.splitInGroupLayout",
+      "prettier.jsxSingleQuote"
+   ],
+   // "prettier.vueIndentScriptAndStyle": true,
+   "beautify.language": {
+      "js": {
+         "type": [
+            "javascript",
+            "json",
+            "jsonc"
+         ],
+         "filename": [
+            ".jshintrc",
+            ".jsbeautifyrc"
+         ]
+      },
+      "css": [
+         "css",
+         "less",
+         "scss"
+      ],
+      "html": [
+         "htm",
+         "html",
+         "php",
+         "blade.php"
+      ]
+   },
+   "resmon.show.cpufreq": false,
+   "npm-intellisense.importQuotes": "\"",
+   "laravel-pint.enable": true,
+   "laravel-pint.preset": "laravel",
+   "blade.format.enable": true,
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.indentSize": "tabSize",
+   // "editor.tabSize": 3,
+   "prettier.withNodeModules": false,
+   "prettier.useTabs": true,
+   "prisma.showPrismaDataPlatformNotification": false,
+   "discord.removeLowerDetails": true,
+   "remote.SSH.remotePlatform": {
+      "uat-kipk.itenas.ac.id": "linux",
+      "kip-k.itenas.ac.id": "linux",
+      "192.168.255.135": "linux",
+      "uat-rpl.itenas.ac.id": "linux",
+      "datahub.itenas.ac.id": "linux",
+      "cdc.itenas": "linux",
+      "192.168.255.47": "linux",
+      "akunk.itenas.ac.id": "linux",
+      "api-sikad.itenas.ac.id": "linux",
+      "simskk-new.itenas.ac.id": "linux",
+      "192.168.255.136": "linux",
+      "uat-inspect.itenas.ac.id": "linux",
+      "192.168.255.109": "linux",
+      "uat-masterapi.itenas.ac.id": "linux",
+      "192.168.255.40": "linux",
+      "Presensi": "linux",
+      "tik.itenas.ac.id": "linux"
+   },
+   "gitlens.graph.minimap.enabled": false,
+   "Devdb.colorTheme": "dark",
+   "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
+   "terminal.integrated.suggest.enabled": true,
+   "terminal.integrated.suggest.quickSuggestions": false,
+   "workbench.editor.editorActionsLocation": "titleBar",
+   // "editor.quickSuggestions": {
+   // 	"strings": true
+   // }
+   "editor.semanticHighlighting.enabled": true, // yang bikin merah jadi putih, yang unused jadi abu //https://github.com/microsoft/vscode/issues/92308
+   // prevent VSCode from modifying the terminal colors
+   "terminal.integrated.minimumContrastRatio": 1,
+   // applicable if you use Go, this is an opt-in flag!
+   "gopls": {
+      "ui.semanticTokens": true
+   },
+   // // aesthetic stuff
+   // "editor.copyWithSyntaxHighlighting": false, // for copy with the same format,
+   "editor.copyWithSyntaxHighlighting": true,
+   "diffEditor.ignoreTrimWhitespace": false,
+   "window.newWindowDimensions": "inherit",
+   // "editor.multiCursorModifier": "ctrlCmd", // for ctrl or alt links
+   "files.trimTrailingWhitespace": true,
+   "diffEditor.renderSideBySide": false,
+   "editor.snippetSuggestions": "top",
+   "editor.detectIndentation": true,
+   // "files.insertFinalNewline": true, // insert new line at the end of copy
+   "files.insertFinalNewline": false,
+   "files.trimFinalNewlines": true,
+   "editor.minimap.enabled": false,
+   // "editor.lineNumbers": "off",
+   "editor.lineNumbers": "on",
+   "editor.guides.indentation": false,
+   "breadcrumbs.enabled": true, //full path
+   "scm.diffDecorations": "none",
+   "editor.hover.delay": 1500,
+   "editor.hover.enabled": true,
+   "editor.matchBrackets": "never",
+   "workbench.tips.enabled": false,
+   "editor.colorDecorators": true,
+   "git.decorations.enabled": true,
+   "editor.lightbulb.enabled": "off",
+   "editor.selectionHighlight": true,
+   "editor.overviewRulerBorder": false,
+   "editor.renderLineHighlight": "none",
+   // "editor.occurrencesHighlight": "off",
+   "editor.occurrencesHighlight": "multiFile",
+   "problems.decorations.enabled": false,
+   "editor.renderControlCharacters": false,
+   "editor.hideCursorInOverviewRuler": true,
+   "editor.gotoLocation.multipleReferences": "goto",
+   "editor.gotoLocation.multipleDefinitions": "goto",
+   "editor.gotoLocation.multipleDeclarations": "goto",
+   "workbench.editor.enablePreviewFromQuickOpen": false,
+   "editor.gotoLocation.multipleImplementations": "goto",
+   "editor.gotoLocation.multipleTypeDefinitions": "goto",
+   // Typography
+   "editor.fontFamily": "Fira Code",
+   // "editor.fontFamily": "Fira Code",
+   "editor.suggestFontSize": 14,
+   "editor.suggestLineHeight": 30,
+   "terminal.integrated.lineHeight": 1,
+   "terminal.integrated.fontSize": 14,
+   "search.useIgnoreFiles": false,
+   "search.exclude": {
+      // Backup start
+      // "**/vendor/{[^l],?[^ai]}*": true,
+      // "**/public/{[^i],?[^n]}*": true,
+      // "**/node_modules": true,
+      // "**/dist": true,
+      // "**/_ide_helper.php": true,
+      // "**/composer.lock": true,
+      // "**/package-lock.json": true,
+      // "storage": true,
+      // ".phpunit.result.cache": true
+      //Backup end
+      // 1. Hide everything in /public, except "index.php" and the "style" folder.
+      "**/public/{[^i],?[^n]}*": true, // Keep "index.php" visible
+      "**/public/style/**": false, // Exclude everything in "public", but keep "style" folder visible
+      // 2. Hide everything in /storage, except "laravel.logs".
+      "**/storage/**": true, // Exclude everything in the storage folder
+      "**/storage/laravel.logs": false, // Keep "laravel.logs" visible
+      // Other existing rules
+      "**/vendor/{[^l],?[^ai]}*": true, // Hide everything in /vendor, except "laravel" and "livewire"
+      "**/vendor/laravel": true, // Hide Laravel stuff
+      "**/node_modules": true, // Hide node_modules
+      "**/dist": true, // Hide dist folder
+      "**/_ide_helper.php": true, // Hide _ide_helper.php
+      "**/composer.lock": true, // Hide composer.lock
+      // "**/package-lock.json": true, // Hide package-lock.json
+      ".phpunit.result.cache": true, // Hide PHPUnit cache file
+      ".next": true
+   },
+   /**
+	 * Code
+	 **/
+   // Include "-" in word selection.
+   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+   "emmet.includeLanguages": {
+      "blade": "html",
+      "vue-html": "html",
+      // "vue": "html",
+      "react": "html",
+      "javascript": "html",
+      "postcss": "css",
+      // "javascript": "javascriptreact",
+      // "typescript": "typescriptreact"
+   },
+   "files.associations": {
+      ".php_cs": "php",
+      ".php_cs.dist": "php",
+      "html": "html",
+      "php": "php",
+      "*.css": "tailwindcss",
+      "*.jsx": "javascriptreact",
+      "*.blade.php": "blade"
+   },
+   /**
+	 * PHP
+	 **/
+   "php.suggest.basic": false,
+   /**
+	 * Prettier
+	 **/
+   "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2
+   },
+   "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2
+   },
+   "[tailwindcss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+   },
+   "[vue]": {
+      "editor.defaultFormatter": "Wscats.vue",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2
+   },
+   "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2
+   },
+   // "prettier.requireConfig": true,
+   "prettier.useEditorConfig": true,
+   "explorer.sortOrder": "type",
+   "prettier.tabWidth": 4,
+   "workbench.tree.indent": 15,
+   "[html]": {
+      "editor.defaultFormatter": "apility.beautify-blade",
+      "editor.formatOnSave": true
+   },
+   "editor.wordWrapColumn": 120,
+   "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+   },
+   "editor.quickSuggestions": {
+      "strings": true
+   },
+   "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+   },
+   "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+      //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "security.workspace.trust.untrustedFiles": "open",
+   "editor.linkedEditing": true,
+   // "editor.fontLigatures": false,
+   "editor.fontLigatures": true,
+   // "editor.fontLigatures": true,
+   "diffEditor.wordWrap": "on",
+   "notebook.output.wordWrap": true,
+   "editor.fontSize": 14,
+   "editor.minimap.maxColumn": 250,
+   "explorer.confirmDelete": false,
+   "editor.accessibilitySupport": "off",
+   "chat.editor.wordWrap": "on",
+   // "editor.wordWrap": "wordWrapColumn",
+   "editor.wordWrap": "on",
+   "[php]": {
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+   },
+   "tailwindCSS.includeLanguages": {
+      "plaintext": "html"
+   },
+   "tailwindCSS.experimental.configFile": null,
+   "editor.fontWeight": "400",
+   "editor.inlineSuggest.suppressSuggestions": true,
+   "editor.padding.top": 16,
+   "editor.cursorBlinking": "phase",
+   "editor.lineHeight": 24,
+   "editor.tokenColorCustomizations": {
+      "textMateRules": [
+         {
+            "scope": [
+               "comment",
+               "keyword",
+               "variable.language",
+               "entity.other.attribute-name.html",
+               "entity.other.attribute-name",
+               "keyword.control",
+               "storage.type",
+               "comment",
+               "comment.block",
+               "comment.line"
+            ],
+            "settings": {
+               "fontStyle": ""
+            }
+         }
+      ]
+   },
+   "material-icon-theme.saturation": 0,
+   "material-icon-theme.files.color": "#42a5f5",
+   "workbench.tree.enableStickyScroll": false,
+   // "workbench.tree.enableStickyScroll": true,
+   "workbench.colorCustomizations": {
+      // "gitDecoration.modifiedResourceForeground": "#000000",
+      // "gitDecoration.ignoredResourceForeground": "#000000",
+   },
+   // "workbench.iconTheme": "material-icon-theme",
+   // css vscode:
+   // "vscode_custom_css.imports": [
+   //    "file:///D:Backups/Vscode/CSS/custom-vscode.css",
+   //    "file:///D:Backups/Vscode/CSS/vscode-script.js"
+   // ],
+   "git.alwaysShowStagedChangesResourceGroup": true,
+   "lifeline.clock.format": "h:mm A",
+   "lifeline.swap": true,
+   "resmon.show.cpuusage": false,
+   "resmon.show.battery": false,
+   // "workbench.editor.showTabs": "none",
+   "eslint.nodePath": "",
+   "breadcrumbs.symbolPath": "off",
+   // "terminal.integrated.tabs.enabled": false,
+   "markdown-preview-enhanced.liveUpdate": true,
+   "workbench.panel.showLabels": false,
+   "window.menuBarVisibility": "compact",
+   "editor.formatOnSave": true,
+   "workbench.sideBar.location": "right",
+   "terminal.integrated.tabs.enabled": false,
+   "php.problems.exclude": {
+      "/": [
+         "PHP7102"
+      ]
+   },
+   // Rada Ganggu Inlay Hints PHP
+   "php.inlayHints.insertOnDoubleClick": false, // ini menarik
+   "php.inlayHints.parameters.enabled": true,
+   "php.inlayHints.types.suppressVariableFromLiteral": true,
+   "php.inlayHints.types.return": true,
+   "php.inlayHints.parameters.byReference": true,
+   "php.inlayHints.types.lambdaParameter": true,
+   "workbench.colorTheme": "Vesper",
+   "workbench.iconTheme": "material-icon-theme",
+   "[markdown]": {
+      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+   },
+   "workbench.activityBar.location": "top",
+   "editor.cursorSmoothCaretAnimation": "on",
+   // End PHP ganggu
+}
