@@ -1,0 +1,65 @@
+{
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "editor.fontFamily": "Fira Code",
+    "editor.suggestFontSize": 14,
+    "editor.suggestLineHeight": 30,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "400",
+    "workbench.iconTheme": "material-icon-theme",
+    // "material-icon-theme.saturation": 0,
+    "material-icon-theme.files.color": "#42a5f5",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.useEditorConfig": true,
+    "prettier.useTabs": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[tailwindcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Wscats.vue",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "window.commandCenter": true,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120,
+    "diffEditor.wordWrap": "on",
+    "resmon.show.battery": false,
+    "resmon.show.cpufreq": false,
+    "resmon.show.cpuusage": false,
+    "workbench.sideBar.location": "right",
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.excludedLanguages": [
+        "plaintext"
+    ],
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)"
+    ],
+    "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+    "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+    "indentRainbow.ignoreErrorLanguages": [
+        "*"
+    ],
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "Min Darkest",
+    "window.restoreWindows": "none",
+    "workbench.editor.editorActionsLocation": "titleBar",
+}
