@@ -34,8 +34,8 @@
           "foreground": "#3C873A",
           "properties": {
             "fetch_package_manager": true,
-            "npm_icon": "<#cc3a3a>\ue5fa</> ",
-            "yarn_icon": "<#348cba>\ue6a7</>"
+            "npm_icon": "<#cc3a3a>\ue5fa </> ",
+            "yarn_icon": "<#348cba>\ue6a7 </>"
           },
           "style": "plain",
           "template": "<#ffffff>(</>{{if .PackageManagerIcon}}{{ .PackageManagerIcon}}{{ end}}{{.Full}}<#ffffff>)</>",
@@ -106,3 +106,4 @@
   "version": 2,
   "auto_upgrade": true
 }
+
