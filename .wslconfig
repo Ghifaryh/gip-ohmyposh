@@ -1,0 +1,15 @@
+#%USSERPROFILE%
+[wsl2]
+memory=3GB
+processors=4
+swap=8GB
+
+[experimental]
+# This moves the memory reclaim to the correct section
+autoMemoryReclaim=gradual
+networkingMode=mirrored
+dnsTunneling=true
+firewall=true
+autoProxy=true
+# Fixes the 'Expected =' error by ensuring correct formatting
+hostAddressLoopback=true
