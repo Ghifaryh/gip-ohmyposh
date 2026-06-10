@@ -1,15 +1,19 @@
-#%USSERPROFILE%
+#Win + R, type %USERPROFILE%, and hit Enter.
+
 [wsl2]
-memory=3GB
-processors=4
-swap=8GB
+# Perfect choice. Keeps Windows breathing safely on 8GB total RAM.
+memory=2GB
+# Upgraded to 6: Your Ryzen 7 can easily spare 6 threads for compilation handles.
+processors=6
+# Crucial fallback for your 2GB RAM limit.
+swap=4GB
+guiApplications=false
 
 [experimental]
-# This moves the memory reclaim to the correct section
 autoMemoryReclaim=gradual
+sparseVhd=true
 networkingMode=mirrored
 dnsTunneling=true
 firewall=true
 autoProxy=true
-# Fixes the 'Expected =' error by ensuring correct formatting
 hostAddressLoopback=true
